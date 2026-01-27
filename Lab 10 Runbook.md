@@ -1,52 +1,10 @@
-````md
-# Deploy an automation runbook to automatically rebuild indexes
 
-> [!NOTE]
-> **Estimated time:** 30 minutes
-
-You have been hired as a Senior Database Administrator to help automate day-to-day database administration. This lab helps ensure the **AdventureWorks** databases operate at peak performance and provides a method for alerting based on certain criteria. AdventureWorks uses SQL Server in both **IaaS** and **PaaS** offerings.
-
-> [!IMPORTANT]
-> 🧾 These exercises may ask you to copy/paste **T-SQL** and use existing SQL resources. **Verify the code** is copied correctly before executing.
-
----
-
-## Table of contents
-
-- [Setup environment](#setup-environment)
-- [Setup your SQL Server in Azure](#setup-your-sql-server-in-azure)
-- [Create an Automation Account](#create-an-automation-account)
-- [Connect to an existing Azure SQL Database](#connect-to-an-existing-azure-sql-database)
-- [Configure Automation Account assets](#configure-automation-account-assets)
-- [Create a PowerShell runbook](#create-a-powershell-runbook)
-- [Create a schedule for the runbook](#create-a-schedule-for-the-runbook)
-- [Cleanup resources](#cleanup-resources)
-  - [Delete the resource group](#delete-the-resource-group)
-  - [Delete the lab resources only](#delete-the-lab-resources-only)
-  - [Delete the LabFiles folder](#delete-the-labfiles-folder)
-- [Completion](#completion)
-
----
-
-## Setup environment
-
-If your lab virtual machine is pre-configured, you should find the lab files in **`C:\LabFiles`**.
-
-> [!TIP]
-> 🔎 Take a moment to check if the files are already there — if yes, **skip this section**.
-
-If you’re using your own machine or the lab files are missing, clone them from GitHub:
-
-1. Open **Visual Studio Code**.
-2. Open the Command Palette: `Ctrl+Shift+P`
-3. Type and select **Git: Clone**
-4. Paste this URL and press **Enter**:
 
    ```url
    https://github.com/MicrosoftLearning/dp-300-database-administrator.git
 ````
 
-5. Save the repository to **`C:\LabFiles`** (create the folder if it doesn’t exist).
+
 
 ---
 
