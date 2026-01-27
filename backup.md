@@ -23,7 +23,7 @@ Log on to the default SQL Server on your virtual machine. Verify that you have a
 
 
 
-## 🛠️ Step 3 – Create a Storage Account in Azure
+## 🛠️ Step 3 – Backup the database to the container
 
 1. In **SQL Server Management Studio**, in Object Explorer, select the database **Adventureworks2017**
 2. At **Destination**, select **URL**
