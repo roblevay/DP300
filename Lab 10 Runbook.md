@@ -1,10 +1,10 @@
-
+Open this folder in Visual Studio Code
 
    ```url
    https://github.com/MicrosoftLearning/dp-300-database-administrator.git
 ````
 
-
+Save the content to c:\Labfiles on your computer
 
 ---
 
