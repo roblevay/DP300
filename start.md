@@ -2,9 +2,9 @@
 2. Select Termina...Neww Terminal
 3. Paste and run this command:
 
-cmd ```
+````cmd 
 cd C:\
 mkdir LabFiles
 cd LabFiles
 git clone https://github.com/MicrosoftLearning/dp-300-database-administrator.git
-```
+````
