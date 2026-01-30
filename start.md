@@ -1,5 +1,5 @@
-1. Start Visual Studio Code from the desktop icon
-2. Select Termina...Neww Terminal
+1. Start **Visual Studio Code** from the desktop icon
+2. Select **Terminal...New Terminal**
 3. Paste and run this command:
 
 ````cmd 
