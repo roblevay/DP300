@@ -15,9 +15,10 @@ Här är länken till kursmaterialet för MDP-300 på MS Learn:
 
 https://learn.microsoft.com/training/courses/dp-300t00?WT.mc_id=ilt_partner_webpage_wwl&ocid=501095#study-guide
 
-https://cornerstone.se/learnkonto
+Instruktion om kursmaterialet:
 
-  
+https://cornerstone.se/learnkonto
+ 
 
 Achievement Badge:
 
