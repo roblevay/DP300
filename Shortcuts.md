@@ -27,6 +27,10 @@ https://learn.microsoft.com/en-us/users/me/achievements?WT.mc_id=ilt_partner_web
  
 Utvärdering https://cornerstone.se/MTM
 
+Glenn Berry diagnostics
+
+https://glennsqlperformance.com/resources/
+
  
 
 
