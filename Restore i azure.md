@@ -60,7 +60,7 @@ Log on to the Azure portal and verify that you have:
 
 ## 🛠️ Step 3 – Restore the Database from Backup
 
-1. In the Azure portal, search for **SQL databases**
+1. In the Azure portal, search for **Azure SQL databases**
 
 2. Click **+ Create**
 
