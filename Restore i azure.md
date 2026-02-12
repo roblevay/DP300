@@ -58,50 +58,70 @@ Log on to the Azure portal and verify that you have:
 
 ---
 
-## 🛠️ Step 3 – Restore the Database from Backup
+---
 
-1. In the Azure portal, search for **Azure SQL databases**
+## 🛠️ Step 3 – Restore the Database from the Latest Backup
 
-2. Click **+ Create**
+When an Azure SQL Database has been deleted, it cannot be restored directly from the database page.
 
-3. Select the tab **Restore**
-
-4. Configure the restore settings:
-
-   - **Source database:** Select the deleted database  
-     `AdventureWorksLT`
-   - **Restore point:** Choose the most recent available time
-   - **Database name:** `AdventureWorksLT`
-   - **Server:** Same original server
-   - **Compute + storage:** Keep default settings
-
-5. Click **Review + Create**
-
-6. Click **Create**
+Instead, you must restore it from the **SQL server** using the **Deleted databases** feature.
 
 ---
 
-## ⏳ Step 4 – Verify the Restore
+### 4. Open the SQL Server
 
-1. Wait until deployment completes
+1. In the Azure portal, search for **SQL servers**
 
-2. Confirm that:
+2. Select the server where the database was hosted  
+   (the same server that previously contained `AdventureWorksLT`)
 
-   - `AdventureWorksLT` is available again
-   - The database status is **Online**
+---
 
-3. (Optional) Open **Query editor** and verify data
+### 5. Locate Deleted Databases
+
+1. In the left menu of the SQL server, scroll down to:
+
+   **Data management → Deleted databases**
+
+2. Click **Deleted databases**
+
+3. Locate the deleted database:
+
+   - `AdventureWorksLT`
+
+---
+
+### 6. Restore the Database
+
+1. Select **AdventureWorksLT**
+
+2. Click **Restore**
+
+3. Configure the restore settings:
+
+   - **Restore point:** Select the most recent available restore time
+   - **Database name:** `AdventureWorksLT`
+   - **Target server:** Same server as before
+   - **Compute + storage:** Keep default settings
+
+4. Click **Review + Create**
+
+5. Click **Create**
+
+---
+
+### 7. Verify the Restore
+
+1. Wait until the deployment is completed
+
+2. Go to **SQL databases**
+
+3. Confirm that the database `AdventureWorksLT` is available again and online
 
 ---
 
 ## 🎉 Result
 
-You have successfully:
-
-- Created a copy of an Azure SQL Database
-- Deleted the original database
-- Restored the database from the latest available backup
-
-This demonstrates Azure SQL automatic backup and point-in-time restore functionality.
+The database has been successfully restored from the latest automatic backup using point-in-time restore.
 
 ---
