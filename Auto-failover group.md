@@ -58,7 +58,7 @@ Wait until the server deployment is completed.
 2. Select the primary SQL server that hosts the database  
    **AdventureWorksLT**
 
-3. In the left menu under **Settings**, select  
+3. In the left menu under **Data Management**, select  
    **Failover groups**
 
 4. Click **+ Add group**
