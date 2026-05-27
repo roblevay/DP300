@@ -8,7 +8,7 @@ Below you’ll find the exercises used in the **DP-300 Database Administrator** 
 
 Link to course files on Onedrive
 
-**[Course Files](https://1drv.ms/f/c/fb5c7f8b8caa2fb7/IgDzs_I6sb1WRbkIcCaSaL0VAc6mDaUytkGd1JgnThX_GYg?e=g5y2r6)**
+**[Course Files](https://1drv.ms/f/c/fb5c7f8b8caa2fb7/IgBfusF8zPN-S4DyKkgZznKJATQx-ixd1s8Mflk0xQfBZjI?e=jWbq5K)**
 
 
 Här är länken till kursmaterialet för MDP-300 på MS Learn:
