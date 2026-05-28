@@ -4,6 +4,8 @@
 Welcome!  
 Below you’ll find the exercises used in the **DP-300 Database Administrator** labs.
 
+Note: to setup the files, run the command **./deploy-sql-database.ps1 -sqlAdminPw "Abcdef12345!XYZ"**
+
 👉 **[Exercises](https://microsoftlearning.github.io/dp-300-database-administrator/)**
 
 Link to course files on Onedrive
