@@ -33,7 +33,11 @@ Glenn Berry diagnostics
 
 https://glennsqlperformance.com/resources/
 
- 
+
+
+ Azure Datasbase Migration Guides
+
+ https://learn.microsoft.com/en-us/data-migration/
 
 
  
