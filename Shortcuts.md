@@ -39,5 +39,9 @@ https://glennsqlperformance.com/resources/
 
  https://learn.microsoft.com/en-us/data-migration/
 
+ Azure Data Studio
+
+ https://learn.microsoft.com/sql/azure-data-studio/download-azure-data-studio
+
 
  
